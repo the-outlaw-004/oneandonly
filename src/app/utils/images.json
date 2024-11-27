@@ -1,25 +1,26 @@
 {
   "resources": [
     {
-      "title": "Find me on Mastodon",
+      "title": "Gym and Exercise",
       "link": "#",
       "imageUrl": "/assets/images/slider_image_1.png"
     },
     {
-      "title": "Welcome to K-Tech",
+      "title": "Swimming Pool",
       "link": "#",
       "imageUrl": "/assets/images/slider_image_2.png"
     },
     {
-      "title": "Some sort of third title",
+      "title": "Kids Playing Area",
       "link": "#",
       "imageUrl": "/assets/images/slider_image_3.png"
     },
 
     {
-      "title": "Super item number the last",
+      "title": "Jogging park and run Track",
       "link": "#",
       "imageUrl": "/assets/images/slider_image_4.png"
     }
-  ]
+  ],
+  "slideToShow": 4
 }
