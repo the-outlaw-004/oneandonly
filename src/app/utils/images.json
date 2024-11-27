@@ -1,0 +1,25 @@
+{
+  "resources": [
+    {
+      "title": "Find me on Mastodon",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_1.png"
+    },
+    {
+      "title": "Welcome to K-Tech",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_2.png"
+    },
+    {
+      "title": "Some sort of third title",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_3.png"
+    },
+
+    {
+      "title": "Super item number the last",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_4.png"
+    }
+  ]
+}
