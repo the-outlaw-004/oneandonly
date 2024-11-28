@@ -5,6 +5,7 @@ import Gallery from "./compos/Gallery";
 import Header from "./compos/Header";
 import HeroSection from "./compos/HeroSection";
 import Plans from "./compos/Plans";
+import Specification from "./compos/Specification";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Connectivity />
       <Gallery />
       <Plans />
+      <Specification />
     </>
   );
 }

@@ -6,7 +6,6 @@ import SliderButton from "./common/SliderButton";
 import Place from "./common/Place";
 
 const Places = ({ places }) => {
-  console.log("places", places);
   const settings = {
     dots: false,
     infinite: true,

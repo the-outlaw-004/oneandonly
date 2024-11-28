@@ -29,3 +29,7 @@ body {
 .heroContent {
   line-height: 48px;
 }
+
+.slick-slide.slick-current img {
+  transform: scale(1.2);
+}

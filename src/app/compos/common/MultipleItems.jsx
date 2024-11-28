@@ -27,7 +27,6 @@ const MultipleItems = ({
     <div className="slider-container">
       <Slider {...settings}>
         {data.map((item, index) => {
-          console.log("item", item);
           return (
             <div key={index} className={wrapperClass}>
               <div
@@ -40,14 +39,16 @@ const MultipleItems = ({
                   src={item.imageUrl || ""}
                   objectFit="contain"
                   fill
+                  sizes="100%"
                   alt={item.title || "image"}
+                  className="rounded-2xl"
                 />
               </div>
-                {section === "plans" && (
-                  <button className="absolute top-28 left-24 rounded bg-white px-2 py-1 z-100">
-                    Enquire now
-                  </button>
-                )}
+              {section === "plans" && (
+                <button className="absolute top-28 left-24 rounded bg-white px-2 py-1 z-100">
+                  Enquire now
+                </button>
+              )}
               {item.title && (
                 <div className={`${content}`}>
                   <p className="text-start mt-3">{item.title}</p>
@@ -55,9 +56,10 @@ const MultipleItems = ({
               )}
               {item.features && (
                 <div className={`${content} mt-2`}>
-                  {item.features.map(feature=>
+                  {/* {item.features.map(feature=>
                     <span>{feature}</span>
-                  )}
+                  )} */}
+                  <p>{item.features.join(" │ ")}</p>
                 </div>
               )}
             </div>
