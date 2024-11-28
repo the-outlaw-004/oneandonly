@@ -1,0 +1,26 @@
+{
+  "resources": [
+    {
+      "title": "Gym and Exercise",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_1.png"
+    },
+    {
+      "title": "Swimming Pool",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_2.png"
+    },
+    {
+      "title": "Kids Playing Area",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_3.png"
+    },
+
+    {
+      "title": "Jogging park and run Track",
+      "link": "#",
+      "imageUrl": "/assets/images/slider_image_4.png"
+    }
+  ],
+  "slideToShow": 4
+}

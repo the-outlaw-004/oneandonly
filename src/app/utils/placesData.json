@@ -1,0 +1,40 @@
+{
+  "places": [
+    {
+      "icon": "/assets/images/hospital.png",
+      "title": "Hospital",
+      "locals": [
+        {
+          "desc": "Cadence Research & Consulting",
+          "distance": 5.2
+        },
+        {
+          "desc": "Community Health Service ",
+          "distance": 2.3
+        },
+        {
+          "desc": "Above n Beyond Medical",
+          "distance": 1.9
+        }
+      ]
+    },
+    {
+      "icon": "/assets/images/education.png",
+      "title": "education",
+      "locals": [
+        {
+          "desc": "Cadence Research & Consulting",
+          "distance": 6.2
+        },
+        {
+          "desc": "Community Health Service",
+          "distance": 3.3
+        },
+        {
+          "desc": "Above n Beyond Medical",
+          "distance": 2.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "plans": [
+    {
+      "imageUrl": "/assets/images/plan_2_removebg.png",
+      "title": "2 BHK Floor Plan",
+      "features": ["2 BHK", "3025 Sq.ft", "West Facing"]
+    },
+    {
+      "imageUrl": "/assets/images/plan_2_removebg.png",
+      "title": "2 BHK Floor Plan",
+      "features": ["2 BHK", "3025 Sq.ft", "West Facing"]
+    },
+    {
+      "imageUrl": "/assets/images/plan_2_removebg.png",
+      "title": "2 BHK Floor Plan",
+      "features": ["2 BHK", "3025 Sq.ft", "West Facing"]
+    }
+  ]
+}

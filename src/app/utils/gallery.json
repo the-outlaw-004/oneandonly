@@ -1,0 +1,11 @@
+{
+  "gallery": [
+    { "imageUrl": "/assets/images/gallery_image_1.png" },
+    { "imageUrl": "/assets/images/gallery_image_2.png" },
+    { "imageUrl": "/assets/images/gallery_image_3.png" },
+    { "imageUrl": "/assets/images/gallery_image_4.png" },
+    { "imageUrl": "/assets/images/gallery_image_1.png" },
+    { "imageUrl": "/assets/images/gallery_image_3.png" }
+  ],
+  "slideToShow": 5
+}
