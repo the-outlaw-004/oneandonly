@@ -20,6 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 16px;
+  letter-spacing: 0.025em;
 }
 
 .filter_brightness {
@@ -30,6 +31,19 @@ body {
   line-height: 48px;
 }
 
-.slick-slide.slick-current img {
-  transform: scale(1.2);
+.specification-slider .slick-slide .imageWrapper {
+  height: 300px;
+}
+
+.specification-slider .slick-slide.slick-current {
+  width: 600px;
+}
+
+.specification-slider .slick-slide:not(.slick-current) .imageWrapper {
+  margin-top: 60px;
+  height: 240px;
+}
+
+.specification-slider .slick-slide.slick-current div {
+  display: block;
 }

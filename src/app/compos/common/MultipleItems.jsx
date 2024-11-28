@@ -41,14 +41,16 @@ const MultipleItems = ({
                   fill
                   sizes="100%"
                   alt={item.title || "image"}
-                  className="rounded-2xl"
+                  className={`${section === "plans" && "blur-[2px]"} rounded-2xl`}
                 />
-              </div>
               {section === "plans" && (
-                <button className="absolute top-28 left-24 rounded bg-white px-2 py-1 z-100">
-                  Enquire now
-                </button>
+                <div className="absolute top-0 left-0 h-full w-full flex justify-center items-center z-100">
+                  <button className=" rounded bg-white px-2 py-1">
+                    Enquire now
+                  </button>
+                </div>
               )}
+              </div>
               {item.title && (
                 <div className={`${content}`}>
                   <p className="text-start mt-3">{item.title}</p>

@@ -5,7 +5,7 @@ import MultipleItems from "./common/MultipleItems";
 
 const Amenities = () => {
   return (
-    <div className="py-12 text-center bg-[#FFF3E9] mb-[180px]">
+    <div className="py-12 text-center bg-[#FFF3E9] mb-[180px]" id="amenities">
       <SectionHeader>amenities</SectionHeader>
       <SectionDesc>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex molestiae

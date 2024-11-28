@@ -6,7 +6,7 @@ import { gallery } from "../utils/gallery";
 
 const Gallery = () => {
   return (
-    <div className="text-center my-12">
+    <div className="text-center my-12" id="gallery">
       <SectionHeader>gallery</SectionHeader>
       <SectionDesc>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
